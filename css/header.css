@@ -96,4 +96,14 @@ input[type="checkbox"]:checked ~ nav {
   .logo {
     width: 400px;
   }
+
+  header {
+    margin: 20px 100px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  header {
+    margin: 62px 250px;
+  }
 }
