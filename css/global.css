@@ -1,0 +1,44 @@
+:root {
+  --dark-primary-text-color: #ffffff;
+  --light-secundary-texto-color: #000000;
+  --general-secundary-text-color: #fd6f00;
+
+  --dark-background-color: #1e1e1e;
+  --light-background-color: #ffffff;
+  --secundary-background-color: #f8f8f8;
+  --tertiary-background-color: #fd6f00;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/Poppins-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--dark-background-color);
+  color: var(--dark-primary-text-color);
+}
+
+.content-title {
+  font-size: 65px;
+  line-height: 98px;
+}
+
+.content-text {
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.btn {
+  background-color: var(--tertiary-background-color);
+  color: var(--dark-primary-text-color);
+  text-decoration: none;
+  border-radius: 5px;
+  width: 188px;
+  height: 52px;
+  text-align: center;
+  padding: 10px 24px;
+}
